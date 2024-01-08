@@ -1,0 +1,83 @@
+.header-information{
+  display: flex;
+  flex-direction: column;
+}
+.background-picture{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: auto;    
+}
+.website-info{
+  height: 200px;
+  margin: auto;
+
+ z-index: 100;
+ display: flex;
+
+
+}
+.image-div{
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.01); 
+  border: 2px sol black;
+}
+.logo{
+  position: relative;
+  width: 160px;
+  margin: auto;
+  margin-top:   10px;
+
+  
+}
+
+.button-header{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.admin-info{
+  margin-top: 55px;
+  background-color: rgb(90, 186, 192);
+  border-style: solid;
+  border-width: 0;
+  padding-left :12px;
+  padding-right :12px;
+  padding-top :4px;
+  padding-bottom: 4px;
+  font-size: 17px;
+  border-radius: 10px;
+  text-align:center
+
+
+
+
+}
+.noti-info{
+  margin-top: 10px;
+  padding: 7px 12px;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 8px;
+  background-color:rgb(235, 62, 103);
+  color: white;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+
+.more-info{
+  margin-top: 10px;
+  padding: 7px 12px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: rgb(143, 140, 193);
+  font-family: Roboto,Arial;
+  font-size: medium;
+  font-weight:500;
+  font-size:  16px;
+  height: 32px;
+
+}
